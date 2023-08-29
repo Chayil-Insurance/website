@@ -119,15 +119,15 @@ function Testimonials() {
 
           {/* Testimonials */}
           <div
-            className=" mx-auto mt-20 flex md:flex-row flex-col space-x-10"
+            className=" mx-auto mt-20 flex md:flex-row flex-col md:space-x-10 space-x-0 md:space-y-0 space-y-5"
             data-aos="zoom-y-out"
           >
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+            <div className="relative flex  items-start border-2 border-gray-200 rounded bg-white">
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg
-                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
+                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#BFCFFF]"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,14 +145,15 @@ function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ Chayil Insurance is fantastic! The simplicity of their
                   platform combined with their outstanding service makes them
-                  stand out. I'm a satisfied customer!“
+                  stand out. I`m a satisfied customer!“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Joel Gikuyu
                 </cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
+                  <span>CEO & Co-Founder</span>
+                  <br />
+                  <a className="text-[#00165A] hover:underline" href="#0">
                     @Ruach Evetta Investments
                   </a>
                 </div>
@@ -162,7 +163,7 @@ function Testimonials() {
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg
-                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
+                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#BFCFFF]"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -178,16 +179,16 @@ function Testimonials() {
                   /> */}
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “I've tried other insurance providers, but Chayil Insurance is
-                  hands down the best. It's user-friendly, and they truly care
+                  “I`ve tried other insurance providers, but Chayil Insurance is
+                  hands down the best. It`s user-friendly, and they truly care
                   about their clients. Highly recommended!“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Joel Gikuyu
                 </cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
+                  <span>CEO & Co-Founder</span> <br />
+                  <a className="text-[#00165A] hover:underline" href="#0">
                     @Ruach Evetta Investments
                   </a>
                 </div>
@@ -197,7 +198,7 @@ function Testimonials() {
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg
-                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
+                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#BFCFFF]"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -215,14 +216,15 @@ function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ Chayil Insurance has made insurance a breeze for us. We have
                   had a great experience, and their team is always responsive.
-                  I'd give them 10 stars if I could!“
+                  I`d give them 10 stars if I could!“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Joel Gikuyu
                 </cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span>
-                  <a className="text-blue-600 hover:underline" href="#0">
+                  <br />
+                  <a className="text-[#00165A] hover:underline" href="#0">
                     @Ruach Evetta Investments
                   </a>
                 </div>
