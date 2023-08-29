@@ -3,7 +3,7 @@ const FeaturesBlocks = () => {
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none"
+        className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-[#BFCFFF] pointer-events-none"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
@@ -12,7 +12,9 @@ const FeaturesBlocks = () => {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="text-5xl font-bold mb-4">How Simple works</h2>
+            <h2 className="text-5xl font-bold mb-4">
+              How Chayil insurance works
+            </h2>
             <p className="text-xl text-gray-600">
               Discover simplicity with Chayil Insurance. Your peace of mind,
               simplified.
@@ -30,7 +32,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
@@ -61,7 +63,7 @@ const FeaturesBlocks = () => {
                 Consultation
               </h4>
               <p className="text-gray-600 text-center">
-                We talk. You share. We understand.{" "}
+                We talk. You share. We understand.
               </p>
             </div>
 
@@ -74,7 +76,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
@@ -115,7 +117,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
@@ -149,7 +151,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
@@ -196,7 +198,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
@@ -230,7 +232,7 @@ const FeaturesBlocks = () => {
               >
                 <g fill="none" fillRule="evenodd">
                   <rect
-                    className="fill-current text-blue-600"
+                    className="fill-current text-[#00165A]"
                     width="64"
                     height="64"
                     rx="32"
