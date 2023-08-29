@@ -1,3 +1,4 @@
+import Faq from "../components/Faq";
 import Features from "../components/Features";
 import FeaturesBlocks from "../components/FeaturesBlocks";
 import HeroSection from "../components/HeroSection";
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <Features />
       <FeaturesBlocks />
       <Testimonials />
+      <Faq />
     </Layout>
   );
 };
