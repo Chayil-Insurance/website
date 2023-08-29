@@ -1,58 +1,33 @@
 import { Link } from "react-router-dom";
 import Input from "./Input";
 import Button from "./Button";
+import logo from "../assets/Images/logo.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-[#00165A]">
       <div className="w-full  px-4 sm:px-6 bg-blueGray-200">
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
+        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-[#BFCFFF]">
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-3">
+          <div className="col-span-12 lg:col-span-3">
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Cruip">
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <radialGradient
-                      cx="21.152%"
-                      cy="86.063%"
-                      fx="21.152%"
-                      fy="86.063%"
-                      r="79.941%"
-                      id="footer-logo"
-                    >
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect
-                    width="32"
-                    height="32"
-                    rx="16"
-                    fill="url(#footer-logo)"
-                    fillRule="nonzero"
-                  />
-                </svg>
+                <img src={logo} className="rounded-full w-20" alt="" />
               </Link>
             </div>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-[#BFCFFF]">
               <Link
                 to="#"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
+                className="text-[#BFCFFF] hover:underline transition duration-150 ease-in-out"
               >
                 Terms
               </Link>{" "}
               ·{" "}
               <Link
                 to="#"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
+                className="text-[#BFCFFF] hover:underline transition duration-150 ease-in-out"
               >
                 Privacy Policy
               </Link>
@@ -87,13 +62,13 @@ const Footer = () => {
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+          <div className="col-span-6 md:col-span-3 lg:col-span-3">
+            <h6 className="text-[#BFCFFF] font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   Blog
                 </Link>
@@ -101,7 +76,7 @@ const Footer = () => {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   Support Center
                 </Link>
@@ -109,7 +84,7 @@ const Footer = () => {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   Partners
                 </Link>
@@ -118,38 +93,38 @@ const Footer = () => {
           </div>
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+          <div className="col-span-6 md:col-span-3 lg:col-span-3">
+            <h6 className="text-[#BFCFFF] font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  to="/"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  to="/about-us"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   About us
                 </Link>
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  to="/contact-us"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
-                  Company values
+                  Contact us
                 </Link>
               </li>
 
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-[#BFCFFF] transition duration-150 ease-in-out"
                 >
                   Privacy Policy
                 </Link>
@@ -158,9 +133,9 @@ const Footer = () => {
           </div>
 
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">
+          <div className="col-span-12 md:col-span-3 lg:col-span-3">
+            <h6 className="text-[#BFCFFF] font-medium mb-2">Subscribe</h6>
+            <p className="text-sm text-[#BFCFFF] mb-4">
               Get the latest news and articles to your inbox every month.
             </p>
             <form>
@@ -184,13 +159,13 @@ const Footer = () => {
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
+        <div className="flex items-center justify-between py-4 md:py-8 border-t border-[#BFCFFF]">
           {/* Social links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-[#BFCFFF] bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
               >
                 <svg
@@ -205,7 +180,7 @@ const Footer = () => {
             <li className="ml-4">
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-[#BFCFFF] bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Github"
               >
                 <svg
@@ -220,7 +195,7 @@ const Footer = () => {
             <li className="ml-4">
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-[#BFCFFF] bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Facebook"
               >
                 <svg
@@ -235,7 +210,9 @@ const Footer = () => {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">All rights reserved.</div>
+          <div className="text-sm text-[#BFCFFF] mr-4">
+            All rights reserved.
+          </div>
         </div>
       </div>
     </footer>
