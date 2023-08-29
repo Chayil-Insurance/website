@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition";
 import explore from "../assets/Images/explore.png";
+import svg from "../assets/Images/28910563_7506911.svg";
 
 function Features() {
   const [tab, setTab] = useState(1);
@@ -34,7 +35,7 @@ function Features() {
             <h1 className="text-5xl font-bold mb-4">Explore the solutions</h1>
             <p className="text-xl text-gray-600">
               Discover Insurance Solutions That Care Dive into a realm of
-              insurance solutions crafted with your needs in mind. We're
+              insurance solutions crafted with your needs in mind. We`re
               dedicated to protecting what matters most to you.
             </p>
           </div>
@@ -52,8 +53,8 @@ function Features() {
                 </h3>
                 <p className=" text-gray-600">
                   Empowering Your Insurance Journey Harness the strength of our
-                  formidable insurance tools. We're here to simplify your
-                  insurance experience and provide support when it's needed.
+                  formidable insurance tools. We`re here to simplify your
+                  insurance experience and provide support when it`s needed.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -76,7 +77,7 @@ function Features() {
                     </div>
                     <div className="text-gray-600">
                       Streamlined Collaboration, Secure Future Join our
-                      ecosystem designed for effortless collaboration. We're
+                      ecosystem designed for effortless collaboration. We`re
                       committed to enhancing security and simplifying
                       administrative tasks for your team.
                     </div>
@@ -143,8 +144,8 @@ function Features() {
                       Your Insurance Partner
                     </div>
                     <div className="text-gray-600">
-                      Committed to Your Peace of Mind We're not just an
-                      insurance agency; we're your partner in peace of mind.
+                      Committed to Your Peace of Mind We`re not just an
+                      insurance agency; we`re your partner in peace of mind.
                       Explore our solutions and experience the difference.
                     </div>
                   </div>
@@ -186,18 +187,19 @@ function Features() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img
-                      className="md:max-w-none mx-auto rounded"
                       src={explore}
-                      width="500"
-                      height="462"
-                      alt="Features bg"
-                    />
-                    <img
                       className="md:max-w-none absolute w-full left-0 transform animate-float"
                       width="500"
                       height="44"
                       alt="Element"
-                      style={{ top: "30%" }}
+                      style={{ top: "50%" }}
+                    />
+                    <img
+                      className="md:max-w-none mx-auto rounded"
+                      src={svg}
+                      width="500"
+                      height="462"
+                      alt="Features bg"
                     />
                   </div>
                 </Transition>
@@ -214,7 +216,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    {/* <img
+                    <img
                       className="md:max-w-none mx-auto rounded"
                       src="/images/features-bg.png"
                       width="500"
@@ -228,7 +230,7 @@ function Features() {
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    /> */}
+                    />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -244,7 +246,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    {/* <img
+                    <img
                       className="md:max-w-none mx-auto rounded"
                       src="/images/features-bg.png"
                       width="500"
@@ -258,7 +260,7 @@ function Features() {
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    /> */}
+                    />
                   </div>
                 </Transition>
               </div>
