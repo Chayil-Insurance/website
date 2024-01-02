@@ -1,14 +1,14 @@
-import Layout from "../components/Layout";
-import onlineinsurance from "../assets/Images/online-insurance.jpg";
-import insurances from "../assets/Images/21826.jpg";
+import Layout from '../components/Layout'
+import onlineinsurance from '../assets/Images/online-insurance.jpg'
+import insurances from '../assets/Images/21826.jpg'
 
 const Aboutpage = () => {
   return (
     <Layout>
-      <section className="">
+      <section className="mt-12">
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 className="text-3xl font-bold tracki text-center sm:text-5xl ">
+            <h2 className="text-3xl font-bold text-center sm:text-5xl ">
               About us
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-base text-center text-gray-400">
@@ -33,14 +33,12 @@ const Aboutpage = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        className="w-7 h-7"
-                      >
+                        className="w-7 h-7">
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
+                          d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
                   </div>
@@ -62,14 +60,12 @@ const Aboutpage = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        className="w-7 h-7"
-                      >
+                        className="w-7 h-7">
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
+                          d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
                   </div>
@@ -91,14 +87,12 @@ const Aboutpage = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        className="w-7 h-7"
-                      >
+                        className="w-7 h-7">
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
+                          d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
                   </div>
@@ -141,20 +135,18 @@ const Aboutpage = () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          className="w-7 h-7"
-                        >
+                          className="w-7 h-7">
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth="2"
-                            d="M5 13l4 4L19 7"
-                          ></path>
+                            d="M5 13l4 4L19 7"></path>
                         </svg>
                       </div>
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leadi ">
-                        Trustworthy Partners{" "}
+                        Trustworthy Partners{' '}
                       </h4>
                       <p className="mt-2 text-gray-400">
                         We work with reputable insurance providers to ensure you
@@ -170,14 +162,12 @@ const Aboutpage = () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          className="w-7 h-7"
-                        >
+                          className="w-7 h-7">
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth="2"
-                            d="M5 13l4 4L19 7"
-                          ></path>
+                            d="M5 13l4 4L19 7"></path>
                         </svg>
                       </div>
                     </div>
@@ -201,14 +191,12 @@ const Aboutpage = () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          className="w-7 h-7"
-                        >
+                          className="w-7 h-7">
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth="2"
-                            d="M5 13l4 4L19 7"
-                          ></path>
+                            d="M5 13l4 4L19 7"></path>
                         </svg>
                       </div>
                     </div>
@@ -238,7 +226,7 @@ const Aboutpage = () => {
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default Aboutpage;
+export default Aboutpage

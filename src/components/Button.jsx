@@ -1,12 +1,13 @@
-const Button = ({ type, name }) => {
+const Button = ({ name, type, color }) => {
   return (
     <button
+      data-variant="flat"
+      className={`text-[13px] md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-body text-center justify-center border-0 border-transparent placeholder-white focus-visible:outline-none focus:outline-none  bg-[${color}] text-white px-5 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white hover:bg-gray-600 hover:shadow-cart h-12 lg:h-14 mt-1 text-sm lg:text-base w-full sm:w-auto`}
       type={type}
-      className="rounded-xl text-[#00165A] px-5 py-2 text-base mb-3 font-medium bg-[#BFCFFF] transition duration-200 hover:bg-brand-600 active:bg-brand-700"
     >
       {name}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

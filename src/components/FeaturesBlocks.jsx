@@ -4,18 +4,17 @@ const FeaturesBlocks = () => {
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-[#BFCFFF] pointer-events-none"
-        aria-hidden="true"
-      ></div>
+        aria-hidden="true"></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative md:px-32 px-4">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="text-5xl font-bold mb-4">
+          <div className="mx-auto text-center pb-12 md:pb-20">
+            <h2 className="lg:text-5xl text-2xl font-bold mb-4">
               How Chayil insurance works
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="md:text-xl text-base text-gray-600">
               Discover simplicity with Chayil Insurance. Your peace of mind,
               simplified.
             </p>
@@ -28,8 +27,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -72,8 +70,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -113,8 +110,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -147,8 +143,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -194,8 +189,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -228,8 +222,7 @@ const FeaturesBlocks = () => {
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect
                     className="fill-current text-[#00165A]"
@@ -267,7 +260,7 @@ const FeaturesBlocks = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default FeaturesBlocks;
+export default FeaturesBlocks
